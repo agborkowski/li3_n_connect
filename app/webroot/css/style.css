@@ -1,0 +1,22 @@
+div#board div.cell,
+div#board div.cell div,
+div#board div.move {
+	display: inline-block; 
+}
+
+div#board div.row {
+	height: 34px;
+	width: 500px;
+}
+
+div#board div.cell {
+	border:1px solid black;
+	height: 30px;
+	margin-right: 22px;
+	width: 30px;
+}
+div#board div.cell:first-child {
+	margin-left:5px;
+}
+
+
